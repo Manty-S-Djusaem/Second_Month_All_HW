@@ -1,4 +1,3 @@
-# HW 1
 class Car:
 
     def __init__(self, title, model, weight, hp, nm, max_speed, color):
@@ -36,3 +35,6 @@ mercedes = Car("Mercedes", "C-230", 100, 250, 200, "400m/h", "RED")
 mercedes.start_engine()
 mercedes.stop_engine()
 mercedes.info()
+
+abc = ['a', 'b', 'c', 'd']
+print(abc[::3])
